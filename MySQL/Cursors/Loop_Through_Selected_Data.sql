@@ -32,8 +32,8 @@ loopThroughSelectResults:BEGIN
         `DB_NAME`.`TblThree`  AS `three` ON(`three`.`id`=`two`.`id`)
 
     WHERE 
-        `record`.`ImportStatus` = 1
-        AND `record`.`MessageType` = 8 
+        `three`.`status` = 1
+        AND `three`.`type` = 8 
 
     GROUP BY 
         `headerFooter`.`fileId`;
