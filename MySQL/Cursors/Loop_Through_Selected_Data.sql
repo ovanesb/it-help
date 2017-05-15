@@ -26,7 +26,7 @@ loopThroughSelectResults:BEGIN
         `DB_NAME`.`TblOne` AS `one`
 
     INNER JOIN 
-        `DB_NAME`_TWO.`TblTwo` AS `two` ON(`one`.`id`=`two`.`id`)
+        `DB_NAME_TWO`.`TblTwo` AS `two` ON(`one`.`id`=`two`.`id`)
 
     INNER JOIN 
         `DB_NAME`.`TblThree`  AS `three` ON(`three`.`id`=`two`.`id`)
