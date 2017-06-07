@@ -36,3 +36,14 @@ $ lsb_release -si
 
 
 > -s, --short
+
+**One More Method**
+```{r, engine='bash', count_lines}
+$ cat /etc/*release*
+```
+
+
+**For Debian**
+```{r, engine='bash', count_lines}
+$ cat /etc/debian_version
+```
