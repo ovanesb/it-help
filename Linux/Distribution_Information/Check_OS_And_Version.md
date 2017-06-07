@@ -15,7 +15,7 @@ $ lsb_release -d
 $ lsb_release -si
 ```
 
-**Some More Switches**
+*Some More Switches*
 > Display the version of the LSB specification against which the distribution is compliant. <br />
 > -v, --version
 
