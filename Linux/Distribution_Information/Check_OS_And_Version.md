@@ -8,22 +8,24 @@ $ lsb_release -d
 $ lsb_release -si
 ```
 
--v, --version
-Display the version of the LSB specification against which the distribution is compliant.
+**Some More Switches**
+> Display the version of the LSB specification against which the distribution is compliant.
+> -v, --version
 
--i, --id
-Display the string id of the distributor.
+> Display the string id of the distributor.
+> -i, --id
 
--d, --description
-Display the single line text description of the distribution.
+> Display the single line text description of the distribution.
+> -d, --description
 
--r, --release
-Display the release number of the distribution.
+> Display the release number of the distribution.
+> -r, --release
 
--c, --codename
-Display the codename according to the distribution release.
+> Display the codename according to the distribution release.
+> -c, --codename
 
--a, --all
-Display all of the above information.
+> Display all of the above information.
+> -a, --all
 
--s, --short
+
+> -s, --short
