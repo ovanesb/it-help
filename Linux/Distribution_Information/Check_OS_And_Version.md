@@ -1,5 +1,12 @@
 # How to check OS and version using a Linux command.
 
+
+**Get Kernel Version**
+```{r, engine='bash', count_lines}
+$ uname -a
+```
+
+**Get Distribution Information**
 ```{r, engine='bash', count_lines}
 $ lsb_release -a
 
