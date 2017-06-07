@@ -27,5 +27,5 @@ $ lsb_release -si
 > Display all of the above information. <br />
 > -a, --all
 
- <br />
+
 > -s, --short
